@@ -26,7 +26,7 @@ echo Time to choose. && goto choice
 cls
 echo This may take a while, please wait. DO NOT CLOSE THIS WINDOW!
 PING -n 5 127.0.0.1>nul
-call util\PortableGit\bin\git.exe clone https://github.com/Wrapper-Offline/Wrapper-Offline
+call git.exe clone https://github.com/Wrapper-Offline/Wrapper-Offline
 echo Wrapper: Offline is now installed! 
 goto exit
 
@@ -35,7 +35,7 @@ goto exit
 cls
 echo This may take a while, please wait. DO NOT CLOSE THIS WINDOW!
 PING -n 5 127.0.0.1>nul
-call util\PortableGit\bin\git.exe clone https://github.com/Wrapper-Offline/Wrapper-Offline-Beta
+call git.exe clone https://github.com/Wrapper-Offline/Wrapper-Offline-Beta
 echo Wrapper: Offline Beta is now installed! 
 goto exit
 
